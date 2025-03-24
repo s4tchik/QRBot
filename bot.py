@@ -157,7 +157,7 @@ async def broadcast(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Запуск бота."""
-    application = Application.builder().token("7597499330:AAFV_qzG1EpcW6cxN-MY2ZJwcwVQWJFL9GQ").build()
+    application = Application.builder().token("444444444444").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
